@@ -1,11 +1,116 @@
+* {
+  box-sizing: border-box;
+}
 
+.nav-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
 
-.logo-content{
- 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-color: #6070FF;
+.logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 88.67%;
+  right: 30.67%;
+  top: 2.83%;
+  bottom: 29.17%;
+}
+
+.background-image > img {
+  height: 770px;
+  width: 1330px;
+  margin-top: 15px;
+  z-index: 20;
+}
+
+.text {
+  position: absolute;
+  top: 18%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.social .twitter {
+  position: absolute;
+  left: 11%;
+  right: 88.27%;
+  top: 83.81%;
+  bottom: 18.88%;
+}
+
+.social .linkedin {
+  position: absolute;
+  left: 20%;
+  right: 81.87%;
+  top: 83.81%;
+  bottom: 18.87%;
+}
+
+.social .Mshape {
+  position: absolute;
+  left: 28.47%;
+  right: 67.2%;
+  top: 83.81%;
+  bottom: 19.21%;
+}
+
+.social .github {
+  position: absolute;
+  left: 37.13%;
+  right: 57.07%;
+  top: 83.5%;
+  bottom: 18.87%;
+}
+
+.social .hand {
+  position: absolute;
+  left: 47%;
+  right: 48.22%;
+  top: 83.5%;
+  bottom: 19.87%;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.into {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
