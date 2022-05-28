@@ -85,3 +85,8 @@ footer ul {
   background-size: cover;
   height: 100vh;
 }
+
+button {
+  background-color: #ffff;
+  border: none;
+}
