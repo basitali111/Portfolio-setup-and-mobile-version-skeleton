@@ -83,7 +83,8 @@ footer ul {
   background-image: url('imges/imag.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
+  
 }
 
 button {
