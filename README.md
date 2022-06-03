@@ -1,15 +1,12 @@
+Update Mobile-version portfoilio setup :
 
-Update Mobile-version portfoilio setup 
+>In this project we have update our mobile version portofoilio  by our skill section in which we had add our skills and also add
+some about me section and also add linters for error detection and also add some our projects images.
 
-> In this we have to make a porfolio that is for mobile version with using some css and html and and also use linters for finding
-errors . we make this project from template that is given by microverse that is in figma. In this project we also add skill that we hae and 
-also add some about self section .
-
-
-
- Built With
-- html
-- CSS
+ Built With follwing technology
+ - HTML
+ -CSS
+-linters
 
 
  Getting Started
