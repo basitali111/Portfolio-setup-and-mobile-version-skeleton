@@ -1,8 +1,8 @@
 
 Portfolio: setup and mobile version skeleton
 
-> In this we have to make a porfolio that is for mobile version with using some css and html and and also use linters for finding
-errors . we make this project from template that is given by microverse that is in figma.
+>In this project we have update over mobile version portfolio and add about self section and also add some working of the projects 
+and also adds linters for error detection and also add skill that i am fluent in we add langusges like htm,css and javascript
 
 
 
