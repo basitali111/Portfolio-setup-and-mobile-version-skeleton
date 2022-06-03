@@ -1,3 +1,4 @@
+
 Update Mobile-version portfoilio setup :
 
 >In this project we have update our mobile version portofoilio  by our skill section in which we had add our skills and also add
@@ -6,14 +7,14 @@ some about me section and also add linters for error detection and also add some
  Built With follwing technology
  - HTML
  -CSS
--linters
+-linter
 
-
+ Built With
+- HTML
+- CSS
  Getting Started
 
 In this project we have to clone a repo from github and then make a porfolio project.
-
-
 
 👤 Author
 

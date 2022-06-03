@@ -1,15 +1,13 @@
 * {
   box-sizing: border-box;
-  padding: 0;
+ padding: 0;
   margin: 0;
 }
-
 .Works {
   margin-left: 50px;
   margin-right: 61px;
   margin-top: 24px;
 }
-
 .work1 {
   display: flex;
   flex-wrap: wrap;
@@ -129,13 +127,11 @@
   display: flex;
   list-style: none;
 }
-
 .button a {
   text-decoration: none;
   list-style: none;
   color: #6070ff;
 }
-
 .button .html {
   text-align: center;
   padding: 4px 12px;
@@ -220,6 +216,37 @@
 }
 
 .self h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-top: 100px;
+  padding-right: 10%;
+  flex-wrap: wrap;
+}
+
+.headline h1 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -228,17 +255,27 @@
   line-height: 52px;
 }
 
+.headline h2 {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
 .self p {
   margin: 20px;
   margin-left: 0;
+.headline p {
+  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-
 .self a {
+.headline a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -248,9 +285,9 @@
   text-decoration: none;
   margin-top: 20px;
 }
-
 .self .social {
   position: absolute;
+footer ul {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -282,13 +319,20 @@
 
 .resume a:hover {
   background-color: lightblue;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.background-image {
+  background-image: url('imges/imag.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {
   background-color: #ffff;
   border: none;
 }
-
 .lan {
   display: flex;
   flex-direction: column;
@@ -331,7 +375,6 @@ button {
   line-height: 20px;
   color: #253858;
 }
-
 .frame {
   list-style: none;
   font-family: 'Poppins', sans-serif;
@@ -357,7 +400,7 @@ button {
   margin-top: 1rem;
   color: #000;
 }
-
 .Skills .drop3 {
   margin-left: 187px;
 }
+
