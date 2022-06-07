@@ -124,7 +124,7 @@ button {
   background-color: #fff;
 }
 
-.intro > h1 {
+.intro>h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -249,7 +249,7 @@ button {
   font-size: 17px;
   line-height: 85px;
   background-color: #fff;
-  border: 1px solid  #396df2;
+  border: 1px solid #396df2;
   border-radius: 16px;
 }
 
@@ -431,4 +431,39 @@ button {
 
 .Skills .drop3 {
   margin-left: 261px;
+}
+
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contact-me h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-me p {}
+
+.contact-me input {
+  font-size: 17px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.contact-me textarea {
+  font-size: 15px;
+  margin-top: 18px;
+  width: 100%;
 }
