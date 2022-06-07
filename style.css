@@ -454,16 +454,32 @@ button {
   line-height: 52px;
 }
 
-.contact-me p {}
+.contact-me p {
+  margin-top: 12px;
+  text-align: center;
+}
 
 .contact-me input {
+ 
   font-size: 17px;
   line-height: 20px;
   width: 100%;
+  padding: 15px 0px 15px 16px;
+  border-radius: 8px;
+  border: 1px solid #cdf8dc;
 }
 
 .contact-me textarea {
   font-size: 15px;
   margin-top: 18px;
   width: 100%;
+  padding: 15px 0px 15px 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+#name{
+  margin-top: 40px;
+}
+#email{
+  margin-top: 20px;
 }
