@@ -433,25 +433,33 @@ button {
   margin-left: 261px;
 }
 
-
+/***CONTATCT ME SESSION****/
 .contact-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 24px;
-  font-family: 'Poppins';
+  padding: 0 24px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  background-image: url(images/contact-me.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #6070FF;
+  border-top-left-radius: 5rem;
+  color: white;
+  margin-top: 110px;
 }
 
 .contact-me h2 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-top: 103px;
 }
 
 .contact-me p {
@@ -460,7 +468,7 @@ button {
 }
 
 .contact-me input {
- 
+
   font-size: 17px;
   line-height: 20px;
   width: 100%;
@@ -477,9 +485,24 @@ button {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
-#name{
+
+#name {
   margin-top: 40px;
 }
-#email{
+
+#email {
   margin-top: 20px;
+}
+
+#submit {
+  background-color: white;
+  color: #6070FF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 16px;
+  width: 140px;
+  margin: 22px 0 35px;
+
 }
