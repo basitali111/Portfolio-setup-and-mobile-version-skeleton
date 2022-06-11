@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #desktop-header {
   display: none;
 }
@@ -26,13 +30,11 @@
 }
 
 /* desktop header */
-@media screen and (min-width: 767px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) {
   #desktop-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: absolute;
-    padding-left: 1000px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -131,7 +133,7 @@ button {
 }
 
 /* desktop headline */
-@media screen and (min-width: 767px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) {
   .headline p {
     width: 667px;
     height: 77px;
@@ -287,6 +289,7 @@ button {
 }
 
 .button .ruby {
+  min-width: fit-content;
   text-align: center;
   padding: 4px 12px;
   width: 113px;
@@ -331,15 +334,80 @@ button {
 }
 
 /* wild-card desktop */
-@media screen and (min-width: 767px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 100px 10% 142px 10%;
+  }
+
+  .background-image {
+    background-size: contain;
+  }
+
   .works {
-    padding-top: 142px;
     list-style: none;
   }
 
   .work-card {
-    width: 1156px;
-    height: 493px;
+    flex-direction: row;
+    height: auto;
+    padding: 2%;
+  }
+
+  .area {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .dev {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+
+  .date {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+
+  #para-item1 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item2 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item3 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item4 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .button1 {
+    line-height: 16px;
+    font-size: 8px;
+    margin-top: 2px;
+  }
+
+  .intro ul {
+    margin-top: 5px;
+  }
+
+  #flipped {
+    flex-direction: row-reverse;
+  }
+
+  #flipped1 {
+    flex-direction: row-reverse;
   }
 
   .image1 {
@@ -349,16 +417,17 @@ button {
   #img1 {
     background-image: url(images/desktop1.png);
     background-repeat: no-repeat;
-    width: 544px;
-    height: 448px;
-    margin-left: 24px;
-    margin-top: 24px;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
   }
 
   #text1 {
-    width: 100%;
-    margin-left: 578px;
-    line-height: 88px;
+    width: 50%;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
+    padding-left: 11px;
   }
 
   #text2 {
@@ -368,23 +437,23 @@ button {
   #img2 {
     background-image: url(images/desktop2.png);
     background-repeat: no-repeat;
-    width: 544px;
-    height: 448px;
-    margin-left: 580px;
-    margin-top: 24px;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
   }
 
   #intro2 {
     display: block;
-    position: absolute;
-    margin-top: 42px;
-    margin-left: 48px;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
   }
 
-  #intro2 p {
+  /* #intro2 p {
     width: 496px;
     height: 70px;
-  }
+  } */
 
   #text3 {
     display: none;
@@ -393,29 +462,26 @@ button {
   #img3 {
     background-image: url(images/desktop3.png);
     background-repeat: no-repeat;
-    width: 544px;
-    height: 448px;
-    margin-left: 24px;
-    margin-top: 24px;
+    background-size: contain;
+    width: 48%;
+    margin: 0;
   }
 
   #intro3 {
     display: block;
-    position: absolute;
-    margin-left: 617px;
-    line-height: 48px;
-    margin-top: 48px;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
   }
 
-  #intro3 p {
+  /* #intro3 p {
     width: 496px;
     height: 70px;
-  }
+  } */
 
   #blue {
-    width: 124px;
-    height: 48px;
-    line-height: 8rem;
+    line-height: 4rem;
     background: #4053fc;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
@@ -425,29 +491,35 @@ button {
   #img4 {
     background-image: url(images/desktop4.png);
     background-repeat: no-repeat;
-    width: 544px;
-    height: 448px;
-    margin-left: 580px;
-    margin-top: 24px;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
   }
 
   #intro4 {
     display: block;
-    position: absolute;
-    margin-top: 48px;
-    margin-left: 48px;
-    line-height: 52px;
+    width: 50%;
+    line-height: auto;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
   }
 
-  #intro4 p {
+  .intro .see {
+    line-height: 68px;
+    font-size: 11px;
+  }
+
+  /* #intro4 p {
     width: 496px;
     height: 53px;
-  }
+  } */
 
   #text4 {
     display: none;
   }
 
+  /*
   #project {
     line-height: 8rem;
   }
@@ -458,7 +530,7 @@ button {
 
   #project2 {
     line-height: 8rem;
-  }
+  } */
 }
 
 .about {
@@ -709,36 +781,17 @@ button {
 }
 
 /* desktop about */
-@media screen and (min-width: 767px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) {
   .self {
     display: flex;
     flex-direction: row;
   }
 
   #second-para {
-    position: absolute;
-    padding-top: 98px;
-    width: 447px;
-    height: 102px;
-  }
-
-  #account2 {
-    position: absolute;
-    padding-top: 261px;
-  }
-
-  .connet {
-    position: absolute;
-    padding-top: 218px;
-  }
-
-  .resume {
-    position: absolute;
-    padding-top: 272px;
-  }
-
-  .lan {
-    margin-left: 23rem;
+    margin: 0;
+    width: 288px;
+    height: auto;
+    padding-top: 18px;
   }
 
   .pro {
@@ -774,9 +827,12 @@ button {
     margin-top: 74px;
   }
 
+  .contact-me {
+    justify-content: center;
+  }
+
   #form1 {
-    width: 46%;
-    margin-left: 337px;
+    padding: 0 20%;
   }
 
   #contact-p {
@@ -785,6 +841,6 @@ button {
   }
 
   #submit {
-    margin-left: 221px;
+    margin: 30px 35% 120px;
   }
 }
