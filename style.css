@@ -4,7 +4,9 @@
   padding: 0;
 }
 
+html,
 body {
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -124,7 +126,7 @@ body {
 .background-image {
   background-image: url('imges/imag.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 button {
@@ -339,18 +341,15 @@ button {
     padding: 100px 10% 142px 10%;
   }
 
-  .background-image {
-    background-size: contain;
-  }
-
   .works {
     list-style: none;
   }
 
   .work-card {
     flex-direction: row;
-    height: auto;
+    max-width: 700px;
     padding: 2%;
+    height: auto;
   }
 
   .area {
@@ -534,7 +533,6 @@ button {
 }
 
 .about {
-  display: grid;
   margin-top: 15px;
 }
 
@@ -789,9 +787,10 @@ button {
 
   #second-para {
     margin: 0;
-    width: 288px;
     height: auto;
     padding-top: 18px;
+    width: auto;
+    padding-right: 12%;
   }
 
   .pro {
@@ -801,7 +800,7 @@ button {
 
   .pro-item {
     display: block;
-    width: 122px;
+    width: 100px;
     height: 120px;
   }
 
@@ -815,7 +814,7 @@ button {
   }
 
   #pro-item3 {
-    margin-left: 20px;
+    margin-left: 8px;
   }
 
   #pro-li {
@@ -825,6 +824,7 @@ button {
   .back {
     height: 110%;
     margin-top: 74px;
+    justify-content: space-around;
   }
 
   .contact-me {
