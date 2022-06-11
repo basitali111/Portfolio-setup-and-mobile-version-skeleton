@@ -4,11 +4,17 @@
   padding: 0;
 }
 
-li {
-  list-style: none;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-header {
+#desktop-header {
+  display: none;
+}
+
+#mobile-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +29,41 @@ header {
   line-height: 20px;
   color: #6070ff;
   text-decoration: none;
+}
+
+/* desktop header */
+@media screen and (min-width: 768px) {
+  #desktop-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #menu-img {
+    display: none;
+  }
+
+  #portfolio {
+    padding-right: 32px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  #about {
+    padding-right: 32px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  #contact {
+    text-decoration: none;
+    color: #344563;
+  }
 }
 
 .headline {
@@ -85,12 +126,20 @@ header {
 .background-image {
   background-image: url('imges/imag.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 button {
   background-color: #ffff;
   border: none;
+}
+
+/* desktop headline */
+@media screen and (min-width: 768px) {
+  .headline p {
+    width: 667px;
+    height: 77px;
+  }
 }
 
 .works {
@@ -241,6 +290,22 @@ button {
   color: #6070ff;
 }
 
+.button .ruby {
+  min-width: fit-content;
+  text-align: center;
+  padding: 4px 12px;
+  width: 113px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+}
+
 .intro .see {
   padding: 11px;
   font-family: 'Poppins', sans-serif;
@@ -258,8 +323,216 @@ button {
   text-decoration: none;
 }
 
+#intro2 {
+  display: none;
+}
+
+#intro3 {
+  display: none;
+}
+
+#intro4 {
+  display: none;
+}
+
+/* wild-card desktop */
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 100px 10% 142px 10%;
+  }
+
+  .works {
+    list-style: none;
+  }
+
+  .work-card {
+    flex-direction: row;
+    max-width: 700px;
+    padding: 2%;
+    height: auto;
+  }
+
+  .area {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .dev {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+
+  .date {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+
+  #para-item1 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item2 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item3 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item4 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .button1 {
+    line-height: 16px;
+    font-size: 8px;
+    margin-top: 2px;
+  }
+
+  .intro ul {
+    margin-top: 5px;
+  }
+
+  #flipped {
+    flex-direction: row-reverse;
+  }
+
+  #flipped1 {
+    flex-direction: row-reverse;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  #img1 {
+    background-image: url(images/desktop1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
+  }
+
+  #text1 {
+    width: 50%;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
+    padding-left: 11px;
+  }
+
+  #text2 {
+    display: none;
+  }
+
+  #img2 {
+    background-image: url(images/desktop2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
+  }
+
+  #intro2 {
+    display: block;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
+  }
+
+  /* #intro2 p {
+    width: 496px;
+    height: 70px;
+  } */
+
+  #text3 {
+    display: none;
+  }
+
+  #img3 {
+    background-image: url(images/desktop3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48%;
+    margin: 0;
+  }
+
+  #intro3 {
+    display: block;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
+  }
+
+  /* #intro3 p {
+    width: 496px;
+    height: 70px;
+  } */
+
+  #blue {
+    line-height: 4rem;
+    background: #4053fc;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  #img4 {
+    background-image: url(images/desktop4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin: 0;
+  }
+
+  #intro4 {
+    display: block;
+    width: 50%;
+    line-height: auto;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+
+  .intro .see {
+    line-height: 68px;
+    font-size: 11px;
+  }
+
+  /* #intro4 p {
+    width: 496px;
+    height: 53px;
+  } */
+
+  #text4 {
+    display: none;
+  }
+
+  /*
+  #project {
+    line-height: 8rem;
+  }
+
+  #project1 {
+    line-height: 8rem;
+  }
+
+  #project2 {
+    line-height: 8rem;
+  } */
+}
+
 .about {
-  display: grid;
   margin-top: 15px;
 }
 
@@ -268,7 +541,7 @@ button {
   flex-wrap: wrap;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 20px;
-  width: 111%;
+  width: 100%;
 }
 
 .self {
@@ -503,4 +776,71 @@ button {
   padding: 12px 16px;
   width: 140px;
   margin: 22px 0 35px;
+}
+
+/* desktop about */
+@media screen and (min-width: 768px) {
+  .self {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #second-para {
+    margin: 0;
+    height: auto;
+    padding-top: 18px;
+    width: auto;
+    padding-right: 12%;
+  }
+
+  .pro {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pro-item {
+    display: block;
+    width: 100px;
+    height: 120px;
+  }
+
+  .pro-item img {
+    margin-left: 27px;
+    margin-top: 6px;
+  }
+
+  .pro-item p {
+    margin-left: 34px;
+  }
+
+  #pro-item3 {
+    margin-left: 8px;
+  }
+
+  #pro-li {
+    list-style: none;
+  }
+
+  .back {
+    height: 110%;
+    margin-top: 74px;
+    justify-content: space-around;
+  }
+
+  .contact-me {
+    justify-content: center;
+  }
+
+  #form1 {
+    padding: 0 20%;
+  }
+
+  #contact-p {
+    width: 569px;
+    height: 102px;
+  }
+
+  #submit {
+    margin: 30px 35% 120px;
+  }
 }
