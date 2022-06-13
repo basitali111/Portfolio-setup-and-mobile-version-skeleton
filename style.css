@@ -347,27 +347,27 @@ button {
 
   .work-card {
     flex-direction: row;
-    max-width: 700px;
+    max-width: 80%;
     padding: 2%;
-    height: auto;
+    height: 100%;
   }
 
-  .area {
+  /* .area {
     font-size: 11px;
     margin-top: 3px;
-  }
+  } */
 
-  .dev {
+  /* .dev {
     font-size: 9px;
     margin-top: 3px;
-  }
+  } */
 
-  .date {
+  /* .date {
     font-size: 9px;
     margin-top: 3px;
-  }
+  } */
 
-  #para-item1 {
+  /* #para-item1 {
     line-height: 19px;
     font-size: 14px;
     margin-top: 7px;
@@ -383,19 +383,19 @@ button {
     line-height: 19px;
     font-size: 14px;
     margin-top: 7px;
-  }
+  } */
 
-  #para-item4 {
+  /* #para-item4 {
     line-height: 19px;
     font-size: 14px;
     margin-top: 7px;
-  }
+  } */
 
-  .button1 {
+  /* .button1 {
     line-height: 16px;
     font-size: 8px;
     margin-top: 2px;
-  }
+  } */
 
   .intro ul {
     margin-top: 5px;
@@ -417,8 +417,8 @@ button {
     background-image: url(images/desktop1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50%;
-    margin: 0;
+    width: 544px;
+height: 448px;
   }
 
   #text1 {
@@ -437,8 +437,8 @@ button {
     background-image: url(images/desktop2.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50%;
-    margin: 0;
+    width: 544px;
+    height: 448px;
   }
 
   #intro2 {
@@ -462,7 +462,8 @@ button {
     background-image: url(images/desktop3.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 48%;
+    width: 544px;
+    height: 448px;
     margin: 0;
   }
 
@@ -491,8 +492,8 @@ button {
     background-image: url(images/desktop4.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50%;
-    margin: 0;
+    width: 544px;
+height: 448px;
   }
 
   #intro4 {
@@ -504,10 +505,10 @@ button {
     padding-bottom: 0;
   }
 
-  .intro .see {
+  /* .intro .see {
     line-height: 68px;
     font-size: 11px;
-  }
+  } */
 
   /* #intro4 p {
     width: 496px;
@@ -531,6 +532,7 @@ button {
     line-height: 8rem;
   } */
 }
+
 
 .about {
   margin-top: 15px;
