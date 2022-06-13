@@ -1,12 +1,12 @@
-Updateing my mobile version portfolio project
+ Portfolio project
 
-In this project we have update over mobile version portfolio and add about self section and also add some working of the projects 
-and also adds linters for error detection and also add skill that i am fluent in we add langusges like htm,css and javascript
+In this project we make a responsive porfolio project for both desktop and mobile version and also use linters for error checking  and add some section header section for introducing myself and then add some projects link to show my other projects and then add about me section to show my experinece and skills and then add contact me section to it.
 
 
  Built With following technology
 - HTML
 - CSS
+- linter for errors
 
 
  Getting Started
