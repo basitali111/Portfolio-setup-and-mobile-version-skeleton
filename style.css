@@ -337,7 +337,6 @@ button {
 
 /* wild-card desktop */
 
-
 .about {
   margin-top: 15px;
 }
@@ -618,7 +617,9 @@ button {
     text-decoration: none;
     color: #344563;
   }
+
   /* *******End******** */
+
   /* wild card */
   .headline {
     padding: 100px 10% 142px 10%;
@@ -631,7 +632,7 @@ button {
   .work-card {
     flex-direction: row;
     flex-wrap: nowrap;
-   width: 90%;
+    width: 100%;
     padding: 2%;
     height: 100%;
   }
@@ -700,8 +701,8 @@ button {
   #img1 {
     background-image: url(images/desktop1.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 544px;
+    background-size: 100% 100%;
+    width: 60%;
     height: 448px;
   }
 
@@ -710,7 +711,7 @@ button {
     margin: 0;
     padding: 24px;
     padding-bottom: 0;
-    padding-left: 11px;
+    padding-left: 34px;
   }
 
   #text2 {
@@ -720,8 +721,8 @@ button {
   #img2 {
     background-image: url(images/desktop2.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 544px;
+    background-size: 98% 100%;
+    width: 60%;
     height: 448px;
   }
 
@@ -745,10 +746,11 @@ button {
   #img3 {
     background-image: url(images/desktop3.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 544px;
+    background-size: 100% 100%;
+    width: 60%;
     height: 448px;
-    margin: 0;
+
+    /* margin: 0; */
   }
 
   #intro3 {
@@ -775,8 +777,8 @@ button {
   #img4 {
     background-image: url(images/desktop4.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 544px;
+    background-size: 100% 100%;
+    width: 60%;
     height: 448px;
   }
 
@@ -815,7 +817,8 @@ button {
   #project2 {
     line-height: 8rem;
   } */
-/* *******ENd ****** */
+
+  /* *******ENd ****** */
 
   /* About Me section */
   .self {
