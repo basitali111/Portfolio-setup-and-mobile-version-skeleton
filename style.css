@@ -336,201 +336,6 @@ button {
 }
 
 /* wild-card desktop */
-@media screen and (min-width: 768px) {
-  .headline {
-    padding: 100px 10% 142px 10%;
-  }
-
-  .works {
-    list-style: none;
-  }
-
-  .work-card {
-    flex-direction: row;
-    max-width: 700px;
-    padding: 2%;
-    height: auto;
-  }
-
-  .area {
-    font-size: 11px;
-    margin-top: 3px;
-  }
-
-  .dev {
-    font-size: 9px;
-    margin-top: 3px;
-  }
-
-  .date {
-    font-size: 9px;
-    margin-top: 3px;
-  }
-
-  #para-item1 {
-    line-height: 19px;
-    font-size: 14px;
-    margin-top: 7px;
-  }
-
-  #para-item2 {
-    line-height: 19px;
-    font-size: 14px;
-    margin-top: 7px;
-  }
-
-  #para-item3 {
-    line-height: 19px;
-    font-size: 14px;
-    margin-top: 7px;
-  }
-
-  #para-item4 {
-    line-height: 19px;
-    font-size: 14px;
-    margin-top: 7px;
-  }
-
-  .button1 {
-    line-height: 16px;
-    font-size: 8px;
-    margin-top: 2px;
-  }
-
-  .intro ul {
-    margin-top: 5px;
-  }
-
-  #flipped {
-    flex-direction: row-reverse;
-  }
-
-  #flipped1 {
-    flex-direction: row-reverse;
-  }
-
-  .image1 {
-    display: none;
-  }
-
-  #img1 {
-    background-image: url(images/desktop1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50%;
-    margin: 0;
-  }
-
-  #text1 {
-    width: 50%;
-    margin: 0;
-    padding: 24px;
-    padding-bottom: 0;
-    padding-left: 11px;
-  }
-
-  #text2 {
-    display: none;
-  }
-
-  #img2 {
-    background-image: url(images/desktop2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50%;
-    margin: 0;
-  }
-
-  #intro2 {
-    display: block;
-    width: 50%;
-    margin: 0;
-    padding: 10px 24px;
-    padding-bottom: 0;
-  }
-
-  /* #intro2 p {
-    width: 496px;
-    height: 70px;
-  } */
-
-  #text3 {
-    display: none;
-  }
-
-  #img3 {
-    background-image: url(images/desktop3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 48%;
-    margin: 0;
-  }
-
-  #intro3 {
-    display: block;
-    width: 50%;
-    margin: 0;
-    padding: 10px 24px;
-    padding-bottom: 0;
-  }
-
-  /* #intro3 p {
-    width: 496px;
-    height: 70px;
-  } */
-
-  #blue {
-    line-height: 4rem;
-    background: #4053fc;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 8px;
-    color: #fff;
-  }
-
-  #img4 {
-    background-image: url(images/desktop4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50%;
-    margin: 0;
-  }
-
-  #intro4 {
-    display: block;
-    width: 50%;
-    line-height: auto;
-    margin: 0;
-    padding: 24px;
-    padding-bottom: 0;
-  }
-
-  .intro .see {
-    line-height: 68px;
-    font-size: 11px;
-  }
-
-  /* #intro4 p {
-    width: 496px;
-    height: 53px;
-  } */
-
-  #text4 {
-    display: none;
-  }
-
-  /*
-  #project {
-    line-height: 8rem;
-  }
-
-  #project1 {
-    line-height: 8rem;
-  }
-
-  #project2 {
-    line-height: 8rem;
-  } */
-}
 
 .about {
   margin-top: 15px;
@@ -780,6 +585,242 @@ button {
 
 /* desktop about */
 @media screen and (min-width: 768px) {
+  /* header code desktop */
+  #desktop-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #menu-img {
+    display: none;
+  }
+
+  #portfolio {
+    padding-right: 32px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  #about {
+    padding-right: 32px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  #contact {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  /* *******End******** */
+
+  /* wild card */
+  .headline {
+    padding: 100px 10% 142px 10%;
+  }
+
+  .works {
+    list-style: none;
+  }
+
+  .work-card {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+  }
+
+  /* .area {
+    font-size: 11px;
+    margin-top: 3px;
+  } */
+
+  /* .dev {
+    font-size: 9px;
+    margin-top: 3px;
+  } */
+
+  /* .date {
+    font-size: 9px;
+    margin-top: 3px;
+  } */
+
+  /* #para-item1 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item2 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  #para-item3 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  } */
+
+  /* #para-item4 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 7px;
+  } */
+
+  /* .button1 {
+    line-height: 16px;
+    font-size: 8px;
+    margin-top: 2px;
+  } */
+
+  .intro ul {
+    margin-top: 5px;
+  }
+
+  #flipped {
+    flex-direction: row-reverse;
+  }
+
+  #flipped1 {
+    flex-direction: row-reverse;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  #img1 {
+    background-image: url(images/desktop1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 448px;
+  }
+
+  #text1 {
+    width: 50%;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
+    padding-left: 34px;
+  }
+
+  #text2 {
+    display: none;
+  }
+
+  #img2 {
+    background-image: url(images/desktop2.png);
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+    width: 60%;
+    height: 448px;
+  }
+
+  #intro2 {
+    display: block;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
+  }
+
+  /* #intro2 p {
+    width: 496px;
+    height: 70px;
+  } */
+
+  #text3 {
+    display: none;
+  }
+
+  #img3 {
+    background-image: url(images/desktop3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 448px;
+
+    /* margin: 0; */
+  }
+
+  #intro3 {
+    display: block;
+    width: 50%;
+    margin: 0;
+    padding: 10px 24px;
+    padding-bottom: 0;
+  }
+
+  /* #intro3 p {
+    width: 496px;
+    height: 70px;
+  } */
+
+  #blue {
+    line-height: 4rem;
+    background: #4053fc;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  #img4 {
+    background-image: url(images/desktop4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 448px;
+  }
+
+  #intro4 {
+    display: block;
+    width: 50%;
+    line-height: auto;
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+
+  /* .intro .see {
+    line-height: 68px;
+    font-size: 11px;
+  } */
+
+  /* #intro4 p {
+    width: 496px;
+    height: 53px;
+  } */
+
+  #text4 {
+    display: none;
+  }
+
+  /*
+  #project {
+    line-height: 8rem;
+  }
+
+  #project1 {
+    line-height: 8rem;
+  }
+
+  #project2 {
+    line-height: 8rem;
+  } */
+
+  /* *******ENd ****** */
+
+  /* About Me section */
   .self {
     display: flex;
     flex-direction: row;
