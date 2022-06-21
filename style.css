@@ -10,15 +10,16 @@ body {
   overflow-x: hidden;
 }
 
-#desktop-header {
+/* #desktop-header {
   display: none;
-}
+} */
 
-#mobile-header {
+.mobile-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 3%;
+  position: relative;
 }
 
 .logo {
@@ -32,7 +33,7 @@ body {
 }
 
 /* desktop header */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   #desktop-header {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +65,7 @@ body {
     text-decoration: none;
     color: #344563;
   }
-}
+} */
 
 .headline {
   display: flex;
@@ -132,6 +133,7 @@ body {
 button {
   background-color: #ffff;
   border: none;
+
 }
 
 /* desktop headline */
@@ -586,7 +588,7 @@ button {
 /* desktop about */
 @media screen and (min-width: 768px) {
   /* header code desktop */
-  #desktop-header {
+  .desktop-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -884,4 +886,75 @@ button {
   #submit {
     margin: 30px 35% 120px;
   }
+  #close-icon{
+    display: none;
+  }
+
+}
+#close-icon{
+  display: none;
+}
+@media screen and (min-width:200px) and (max-width:767px){
+  .desktop-header{
+    width: 100%;
+  height: 100vh;
+  background: rgba(15, 147, 187, 0.5);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  transform: translateX(100%);
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 32px;
+ line-height: 60px;
+
+
+
+}
+#portfolio{
+  text-decoration: none;
+  margin-top: 106px;
+  margin-left: 24px;
+  color: #fff;
+}
+#about{
+  text-decoration: none;
+  margin-left: 24px;
+  color: #fff;
+}
+#contact{
+  text-decoration: none;
+  margin-left: 24px;
+  color: #fff;
+}
+#menu-img{
+  z-index: 999;
+  display: block;
+  position: absolute;
+  right: 2%;
+}
+/* .active .desktop-header{
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.active .mobile-header #close-icon{
+  display: block;
+  z-index: 999;
+  position: absolute;
+  right: 2%;
+}
+.active .mobile-header #menu-img{
+display: none;
+} */
 }
