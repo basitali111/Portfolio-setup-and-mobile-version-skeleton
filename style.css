@@ -849,7 +849,9 @@ button {
 
 #close-icon {
   display: none;
-  font-size: 36px;
+  font-size: 32px;
+  font-style: normal;
+  color: #fff;
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
@@ -898,7 +900,10 @@ button {
     z-index: 999;
     display: block;
     position: absolute;
-    right: 2%;
+    right: 4%;
+    color: #6070ff;
+    font-size: 20px;
+    top: 21px;
   }
 
   .active .desktop-header {
@@ -912,7 +917,8 @@ button {
     display: block;
     z-index: 999;
     position: absolute;
-    right: 2%;
+    right: 4%;
+    top: 21px;
   }
 
   .active .mobile-header #menu-img {
