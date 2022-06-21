@@ -1,6 +1,6 @@
-const mobile_nav = document.querySelector(".mobile-header");
-const nav_header= document.querySelector(".header")
-const toggleNavbar =() =>{
-nav_header.classList.toggle("active");
+const mobileNav = document.querySelector('.mobile-header');
+const navHeader = document.querySelector('.header');
+const toggleNavbar = () => {
+  navHeader.classList.toggle('active');
 };
-mobile_nav.addEventListener('click',() => toggleNavbar());
+mobileNav.addEventListener('click', () => toggleNavbar());
