@@ -901,7 +901,7 @@ button {
     right: 2%;
   }
 
-  .active .desktop-header {
+  /* .active .desktop-header {
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
@@ -917,5 +917,5 @@ button {
 
   .active .mobile-header #menu-img {
     display: none;
-  }
+  } */
 }
