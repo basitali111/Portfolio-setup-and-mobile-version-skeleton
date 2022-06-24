@@ -355,7 +355,7 @@ popuparray.forEach((element, i) => {
           <div class="project-container">
             <span class="project-view">
              <a href="${popuparray[i].seeproject}" class="see-live">
-              See live <i class="far">&#xf14d;</i></a
+              See live<i class='fas'>&#xf35d;</i></a
              >
            </span>
            <span class="see-source">
