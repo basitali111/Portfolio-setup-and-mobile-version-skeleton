@@ -307,6 +307,24 @@ button {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+  margin-left: 30px;
+}
+
+.button .bootstrap {
+  min-width: fit-content;
+  text-align: center;
+  padding: 4px 12px;
+  width: 113px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  margin-left: 30px;
 }
 
 .intro .see {
@@ -656,14 +674,15 @@ button {
     width: 50%;
     height: auto;
   }
+
   .image1 {
     width: 100%;
     margin: 0;
-
   }
-/* 
+
+  /*
   #img1 {
-  
+
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 60%;
@@ -673,6 +692,7 @@ button {
   #text1 {
     width: 50%;
     margin: 0;
+
     /* padding: 24px; */
     padding-bottom: 0;
     padding-left: 34px;
@@ -852,109 +872,6 @@ button {
   #close-icon {
     display: none;
   }
-  .popupcontainer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: none;
-    align-items: center;
-    justify-content: center;
-  }
-  .popupcontainer .model {
- display: none;
-    padding: 1rem;
-    background: #fff;
-    position: relative;
-    margin: 4rem;
-    width: 40rem;
-  }
-  .popupcontainer .model.active1 {
-    display: inline-block;
-  }
-  .popupcontainer .model img {
-    object-fit: contain;
-    margin: 0px;
-    padding-top: 20px;
-  }
-  .popupcontainer .model .materialicons {
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-    cursor: pointer;
-    color: #444;
-    font-size: 21px;
-  }
-  .popupcontainer .model .materialicons:hover {
-    transform: rotate(90deg);
-  }
-  .popupcontainer .model h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-  }
-  .popupcontainer .model ul {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 5rem;
-    padding-top: 1rem;
-  }
-  .popupcontainer .model p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-    padding-top: 1rem;
-  }
-
-  .popupcontainer .model .button {
-    padding-top: 12px;
-  }
-  .popupcontainer .model  a{
-    padding-top: 30px;
-  }
-  .popupcontainer .model .project-view{
-    padding-bottom: 10px;
-    padding-top: 65px;
-  }
-  .popupcontainer .model .project-container{
-    padding-top: 35px;
-    padding-bottom: 16px;
-  }
-  .popupcontainer .model .see-live {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #396DF2;
-    border: 1px solid #396DF2 ;
-    padding: 13px;
-    border-radius: 8px;
-    
-  }
-  .popupcontainer .model .see-live .far{
-    padding-left: 26px;
-  }
-  .popupcontainer .model .see-live img{
-  padding-left: 8px;
-  }
-  .popupcontainer .model .see-source {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #396DF2;
-    border-radius: 8px;
-    margin-left: 20px;
-
-    
-  }
 }
 
 #close-icon {
@@ -1034,6 +951,7 @@ button {
   .active .mobile-header #menu-img {
     display: none;
   }
+
   .popupcontainer {
     position: fixed;
     top: 0;
@@ -1045,22 +963,26 @@ button {
     align-items: center;
     justify-content: center;
   }
+
   .popupcontainer .model {
- display: none;
+    display: none;
     padding: 1rem;
     background: #fff;
     position: relative;
     margin: 4rem;
     width: 40rem;
   }
+
   .popupcontainer .model.active1 {
     display: inline-block;
   }
+
   .popupcontainer .model img {
     object-fit: contain;
-    margin: 0px;
+    margin: 0;
     padding-top: 20px;
   }
+
   .popupcontainer .model .materialicons {
     position: absolute;
     top: 1rem;
@@ -1069,21 +991,25 @@ button {
     color: #444;
     font-size: 21px;
   }
+
   .popupcontainer .model .materialicons:hover {
     transform: rotate(90deg);
   }
+
   .popupcontainer .model h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
   }
+
   .popupcontainer .model ul {
     display: flex;
     justify-content: space-between;
     padding-right: 5rem;
     padding-top: 1rem;
   }
+
   .popupcontainer .model p {
     font-style: normal;
     font-weight: 400;
@@ -1096,45 +1022,201 @@ button {
   .popupcontainer .model .button {
     padding-top: 12px;
   }
-  .popupcontainer .model  a{
+
+  .popupcontainer .model a {
     padding-top: 30px;
   }
-  .popupcontainer .model .project-view{
+
+  .popupcontainer .model .project-view {
     padding-bottom: 10px;
     padding-top: 65px;
   }
-  .popupcontainer .model .project-container{
+
+  .popupcontainer .model .project-container {
     padding-top: 35px;
     padding-bottom: 16px;
   }
+
   .popupcontainer .model .see-live {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
-    color: #396DF2;
-    border: 1px solid #396DF2 ;
+    color: #396df2;
+    border: 1px solid #396df2;
     padding: 13px;
     border-radius: 8px;
-    
   }
-  .popupcontainer .model .see-live .far{
+
+  .popupcontainer .model .see-live .far {
     padding-left: 26px;
   }
-  .popupcontainer .model .see-live img{
-  padding-left: 8px;
+
+  .popupcontainer .model .see-live .github {
+    padding-left: 8px;
   }
+
   .popupcontainer .model .see-source {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
-    color: #396DF2;
+    color: #396df2;
     border-radius: 8px;
     margin-left: 20px;
+  }
+}
 
-    
+/* desktop popup code */
+@media screen and (min-width: 768px) {
+  .popupcontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .popupcontainer .model {
+    display: none;
+
+    /* padding: 1rem; */
+    background: #fff;
+    position: relative;
+    margin: 3rem;
+    height: 60rem;
+    border-radius: 16px;
+
+    /* width: 40rem; */
+  }
+
+  .popupcontainer .model.active1 {
+    display: inline-block;
+  }
+
+  .popupcontainer .model .image {
+    height: 68%;
+    width: 100%;
+    line-height: 400px;
+    text-align: center;
+    margin-top: 27px;
+  }
+
+  .popupcontainer .model .image1 {
+    max-width: 98%;
+    height: 75%;
+    margin: auto;
+    vertical-align: middle;
+  }
+
+  .popupcontainer .model .materialicons {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+    font-size: 21px;
+  }
+
+  .popupcontainer .model .materialicons:hover {
+    transform: rotate(90deg);
+  }
+
+  .popupcontainer .model h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .popupcontainer .model .work-areas {
+    display: flex;
+    padding-right: 26rem;
+    padding-top: 16px;
+    position: relative;
+    margin-left: 24px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .popupcontainer .model p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #344563;
+    padding-top: 2rem;
+    width: 51%;
+    margin-left: 9px;
+    position: relative;
+    top: -180px;
+
+    /* position: relative; */
+  }
+
+  .popupcontainer .model .button-container {
+    width: 38%;
+    top: 668px;
+    left: 55%;
+    position: fixed;
+  }
+
+  .popupcontainer .model .button {
+    padding-top: 12px;
+    gap: 8px;
+  }
+
+  .popupcontainer .model a {
+    padding-top: 30px;
+  }
+
+  .popupcontainer .model .project-view {
+    padding-bottom: 10px;
+    padding-top: 65px;
+  }
+
+  .popupcontainer .model .project-container {
+    padding-top: 35px;
+    padding-bottom: 16px;
+  }
+
+  .popupcontainer .model .see-live {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #396df2;
+    border: 1px solid #396df2;
+    padding: 13px;
+    border-radius: 8px;
+  }
+
+  .popupcontainer .model .see-live .far {
+    padding-left: 26px;
+  }
+
+  .popupcontainer .model .see-live .github {
+    padding-left: 8px;
+  }
+
+  .popupcontainer .model .see-source {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #396df2;
+    border-radius: 8px;
+    margin-left: 20px;
   }
 }
