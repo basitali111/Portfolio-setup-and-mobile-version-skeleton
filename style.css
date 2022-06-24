@@ -11,10 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-/* #desktop-header {
-  display: none;
-} */
-
 .mobile-header {
   display: flex;
   justify-content: space-between;
@@ -32,42 +28,6 @@ body {
   color: #6070ff;
   text-decoration: none;
 }
-
-/* desktop header */
-
-/* @media screen and (min-width: 768px) {
-  #desktop-header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  #menu-img {
-    display: none;
-  }
-
-  #portfolio {
-    padding-right: 32px;
-    text-decoration: none;
-    color: #344563;
-  }
-
-  #about {
-    padding-right: 32px;
-    text-decoration: none;
-    color: #344563;
-  }
-
-  #contact {
-    text-decoration: none;
-    color: #344563;
-  }
-} */
 
 .headline {
   display: flex;
@@ -164,7 +124,6 @@ button {
 }
 
 .image1 {
-  /* width: 370px; */
   object-fit: cover;
   margin-left: 20px;
   margin-top: 20px;
