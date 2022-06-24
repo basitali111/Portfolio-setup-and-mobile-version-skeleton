@@ -1052,6 +1052,7 @@ button {
     margin: 3rem;
     height: 60rem;
     border-radius: 16px;
+    overflow-y: scroll;
 
     /* width: 40rem; */
   }
@@ -1061,11 +1062,12 @@ button {
   }
 
   .popupcontainer .model .image {
-    height: 68%;
+    height: 100%;
     width: 100%;
     line-height: 400px;
     text-align: center;
     margin-top: 27px;
+    overflow-y: scroll;
   }
 
   .popupcontainer .model .image1 {
@@ -1113,7 +1115,6 @@ button {
     font-size: 12px;
     line-height: 19px;
     color: #344563;
-    padding-top: 2rem;
     width: 51%;
     margin-left: 9px;
     position: relative;
@@ -1124,9 +1125,9 @@ button {
 
   .popupcontainer .model .button-container {
     width: 38%;
-    top: 668px;
+    top: 889px;
     left: 55%;
-    position: fixed;
+    position: absolute;
   }
 
   .popupcontainer .model .button {
