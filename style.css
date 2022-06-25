@@ -1064,8 +1064,8 @@ button {
     background: #fff;
     position: relative;
     margin: 3rem;
-    height: 60rem;
     border-radius: 16px;
+    overflow-y: scroll;
 
     /* width: 40rem; */
   }
@@ -1085,7 +1085,7 @@ button {
 
   .popupcontainer .model .image1 {
     max-width: 98%;
-    height: 75%;
+    height: 86%;
     margin: auto;
     vertical-align: middle;
   }
@@ -1131,16 +1131,20 @@ button {
     width: 51%;
     margin-left: 9px;
     position: relative;
-    top: -180px;
+    top: -80px;
 
     /* position: relative; */
   }
 
+  .text-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .popupcontainer .model .button-container {
-    width: 38%;
-    top: 889px;
-    left: 55%;
-    position: absolute;
+    width: 47%;
+    position: relative;
+    top: -85px;
   }
 
   .popupcontainer .model .button {
