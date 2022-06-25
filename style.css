@@ -1121,10 +1121,11 @@ button {
     /* position: relative; */
   }
 
- .text-container{
-display: flex ;
-flex-direction: row;
- }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .popupcontainer .model .button-container {
     width: 47%;
     position: relative;
