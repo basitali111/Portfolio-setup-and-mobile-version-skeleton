@@ -1,8 +1,4 @@
-const mobileNav = document.querySelector('.mobile-header');
-const navHeader = document.querySelector('.header');
-const toggleNavbar = () => {
-  navHeader.classList.toggle('active');
-};
+
 mobileNav.addEventListener('click', () => toggleNavbar());
 const main = document.querySelector('#porfilio');
 
@@ -398,3 +394,4 @@ form.addEventListener('input', () => {
 inputName.value = localStorage.getItem('Name');
 email.value = localStorage.getItem('Email');
 textarea.value = localStorage.getItem('TextArea');
+
