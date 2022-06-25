@@ -341,7 +341,7 @@ popuparray.forEach((element, i) => {
             alt="work template"
           />
         </div>
-      <div class="text-contianer">
+        <div class ="text-container">
         <p>
          ${popuparray[i].highlights}
         </p>
